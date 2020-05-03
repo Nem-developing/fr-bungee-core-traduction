@@ -131,5 +131,5 @@ Announcers:
     - '&fBienvenue &d%player_name%&f. Suis-nous sur twitter &d@NCachax'
     - '&fSi tu as des question ou des remarques tu peut les envoyer au staff en utilisant la commande &d/request <requette>.'
     '2':
-    - '&fHey, tu es sur le serveur %player_server%. À tout moments tu peut faire &d/hub &fpour changer de serveur'
-    - '&fTon ping est de &d%player_ping%&f, si tu as des lags cela peut venir de toi mais aussi du serveur !'
+    - '&fHey, tu es sur le serveur %player_server%. À tout moments tu peut faire &d/hub &fpour changer de serveur.'
+    - '&fTon ping est de &d%player_ping%ms, si tu as des lags cela peut venir de toi mais aussi du serveur !'
