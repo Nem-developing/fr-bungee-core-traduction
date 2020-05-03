@@ -3,7 +3,7 @@ Commands:
     Type: TEXT
     text:
     - ''
-    - '&fS''il vous plais, veuillez suivre &dhttps://www.youtube.com/c/TheAle1998 sur youtube !'
+    - '&fS''il vous plaît, veuillez suivre &dhttps://www.youtube.com/c/TheAle1998 sur youtube !'
     - ''
     permission: bungecore.command.youtube
     no-permission: '&cTu n''as pas la permission d''effectuer cette commande.'
