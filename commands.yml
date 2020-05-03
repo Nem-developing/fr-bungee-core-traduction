@@ -1,0 +1,46 @@
+Commands:
+  youtube:
+    Type: TEXT
+    text:
+    - ''
+    - '&fS''il vous plais, veuillez suivre &dhttps://www.youtube.com/c/TheAle1998 sur youtube !'
+    - ''
+    permission: bungecore.command.youtube
+    no-permission: '&cTu n''as pas la permission d''effectuer cette commande.'
+  hcf:
+    Type: SERVER_TELEPORT
+    server: Hub-1
+    text:
+    - '&fTu as été téléporté sur le serveur &d%server_name%.'
+    permission: bungecore.command.hcf
+    no-permission: '&cTu n''as pas la permission d''effectuer cette commande.'
+  diamond:
+    Type: PLAYER_COMMAND
+    text:
+    - '&fTu as reçus 1 &d&lDiamant&7.'
+    commands:
+    - give NotCacha minecraft:diamond 1
+Commands-Blocked:
+- about
+- bukkit:about
+- bukkit:help
+- bukkit:?
+- bukkit:me
+- bukkit:pl
+- bukkit:plugins
+- bukkit:ver
+- bukkit:version
+- help
+- icanhasbukkit
+- '?'
+- /calc
+- /eval
+- //eval
+- //calc
+- calc
+- eval
+- pl
+- plugins
+- plugin
+- ver
+- version
