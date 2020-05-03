@@ -56,7 +56,7 @@ Messages:
   - '&fServeur &7: &d%server%'
   Report-Teleport-Message: '&dCliquez pour téléporter la perssone avertie.'
   Report-Hover-Message: '&dCliquez pour vous téléporter sur le serveur de la personne avertie.'
-  No-Contais-Reports: '&cLe joueur &4%target_name% &cn''as pas d'avertissements dans la base de avertie.'
+  No-Contais-Reports: '&cLe joueur &4%target_name% &cn''as pas d''avertissements dans la base de avertie.'
   Clear-Reports-Usage:
   - '&cUtilisation : /clearreports <player>'
   Clear-Reports-Message: 'Les avertissements de &d%target_name% &fon bien été suprimés !'
