@@ -1,0 +1,149 @@
+Config:
+  Ping-Command: true
+  StaffChat-Command: true
+  Info-Command: true
+  Private-Message-Command: true
+  Report-Command: true
+  Request-Command: true
+  SocialSpy-Command: true
+  Broadcast-Command: true
+  Staff-Message: true
+  Hub-Command: true
+  Hub-Server: lobby
+  Hub-Aliases: lobby,lby
+  Motd-Command: false
+  Maintenance-Command: true
+  Announcer-Command: true
+  Server-Full-Join: true
+  Max-Slots: 100
+  Announcer-Broadcast: true
+  Block-Commands: true
+  Announcers-Use: true
+Cooldown:
+  Report: 15
+  Request: 15
+Messages:
+  MsgHelp:
+  - '&cUtilisation : /msg <player> <message>'
+  ReplyHelp:
+  - '&cUtilisation : /r <message>'
+  Player-Offline: '&c%target_name% est hors ligne.'
+  DontReply: '&cVous n''avez personne à qui répondre.'
+  DontMessageYourself: '&cVous ne pouvez pas vous envoyer un message vous-même !'
+  No-Message: '&cS''il vous plais, veuillez entrer un message.'
+  To: '&7(To &d%target_name%&7) %message%'
+  From: '&7(From &d%player_name%&7) %message%'
+  Ping: '&fYour ping is&7: &d%ping% &fms'
+  Ping-Other: '&d%target_name%''s &fPing is&7: &d%target_ping% &fms'
+  SocialSpy-Enabed: '&fSocialSpy has been &aEnabled'
+  SocialSpy-Disabled: '&fSocialSpy has been &cDisabled'
+  Msg-Filtred: '&c[Filtred] &f%player_name% &4--> &f%target_name%&7: &f%message%'
+  StaffChat-Help:
+  - '&cUsage: /staffchat <message>'
+  StaffChat-Format: '&f%server% &7| &c%player%&7: &f%msg%'
+  StaffChat-Format-Console: '&fALL &7| &cConsole&7: &f%msg%'
+  StaffChat-Enabled: '&9Staff Chat &7has been &aenabled&7.'
+  StaffChat-Disabled: '&9Staff Chat &7has been &cdisabled&7.'
+  Report-Help:
+  - '&cUsage: /report <player> <reason>'
+  Report-Cooldown-Format: '&cYou have to wait &l%cooldown%s &cseconds to send a message
+    back to the staff'
+  Report-Player-Message: '&aYour report has been sent to all online staff in the network'
+  Report-Staff-Message:
+  - ''
+  - '&fReport of&7: &d%player_name%'
+  - '&fReported&7: &d%target_name%'
+  - '&fReason&7: &d%reason%'
+  - '&fServer&7: &d%server%'
+  Report-Teleport-Message: '&dClick to teleport the reported player.'
+  Report-Hover-Message: '&dClick to teleport server of reported player.'
+  No-Contais-Reports: '&cPlayer &4%target_name% &chas no reports saved in our database.'
+  Clear-Reports-Usage:
+  - '&cUsage: /clearreports <player>'
+  Clear-Reports-Message: '&d%target_name% &freports have been removed'
+  Get-Reports-Usage:
+  - '&cUsage: /getreports <player>'
+  Generating-Reports-Message: '&fAll reports of the &d%target_name% &fplayer are being
+    obtained'
+  Request-Help:
+  - '&cUsage: /request <message>'
+  Request-Cooldown-Format: '&cYou have to wait &l%cooldown%s &cseconds to send a message
+    back to the staff'
+  Request-Player-Message: '&aYour message has been sent to all staff connected in
+    the &anetwork'
+  Request-Staff-Message:
+  - ''
+  - '&dHas requested assistence.'
+  - ''
+  - '&fPlayer&7: &d%player_name%'
+  - '&fReason&7: &d%request%'
+  - '&fServer&7: &d%server%'
+  - ''
+  Staff-Join: '&d%player% &7has Joined &f%server%'
+  Staff-Quit: '&d%player% &7has Left &f%server%'
+  Broadcast-Help:
+  - '&cUsage: /broadcast <message>'
+  Broadcast-Prefix: '&7[&4Alert&7] '
+  Info-Format: TEXT
+  Info-Web: '&d%target_name% &finformation successfully generated.'
+  Info-Header-Message: '&fInfo of &d%target_name%'
+  Info-Help:
+  - '&cUsage: /info <player>'
+  Info-Text:
+  - '&7&m                                            '
+  - '&fPlayer&7: &d%target_name%'
+  - '&fServer&7: &d%target_server%'
+  - '&fPing&7: &d%target_ping%'
+  - '&fIP&7: &d%target_ip%'
+  - '&fUUID&7: &d%target_uuid%'
+  - '&fVersion&7: &d%target_version%'
+  - '&fCountry&7: &d%target_country%'
+  - '&7&m                                            '
+  Announcer-Use: '&cUsage: /announcer <server or all> <title> <subtitle>'
+  Announcer-Broadcast: '&7[&4%prefix%&7] &4%message%'
+  Server-Does-not-exist: '&cThe server &4%server% &cdoes not exist'
+  Blocked-Commands-Message:
+  - '&cThe command &l%command% &cis totally blocked, your behavior will be notified
+    to the online staff and added to our database'
+  Blocked-Commands-Message-Staff:
+  - '&d%target_name% &fhas used the following command blocked &d%command%'
+  Plugin-List: '&fPlugins &7(&d%plugins_amount%&7): &d%plugins_name%'
+  Motd:
+    Usage:
+    - '&cUsage: /setmotd <line> <text>'
+    - '&cUsage: /setmotd maintenance <line> <text>'
+    Line-1: '&d&lExample Server &f| &7BungeCore'
+    Line-2: '&5Plugin created by &d&lNotCacha'
+    Set-Motd-Message: '&aLine %line% has been established correctly, it was replaced
+      by %newline%'
+  Server-Full: '&cThe network is full at the moment, you can try later or buy rank
+    in our store to enter when the server is full store.example.com&7.'
+Maintenance:
+  Enabled: false
+  MOTD:
+    Line1: '&dYour Minecraft Network &7| &4Maintenance'
+    Line2: '&cEdit the config.yml'
+  Serverversion: '&cMaintenance'
+  Maintenance-Enabled: '&aMaintenance mode has been activated&7.'
+  Maintenance-Disabled: '&cThe network is no longer under maintenance&7.'
+  Maintenance-On: '&cRight now the network is under maintenance, you can visit our
+    twitter for more information @NCachax&7.'
+  Kick-Message: '&cThe network is under maintenance, you can get information about
+    this maintenance on our twitter @NCachax&7.'
+  Set-Motd-Message: '&aLine %line% has been established correctly, it was replaced
+    by %newline%'
+  Command-Usage: '&cUsage: /setmotd maintenance <line> <text>'
+Announcers:
+  Delay: 120
+  Type: RANDOM
+  announcers:
+    '1':
+    - '&fWelcome &d%player_name%&f, has our server remember that you can follow us
+      on our twitter &d@NCachax'
+    - '&fRemember that any doubts or questions you have can be asked to the staff
+      via teamspeak, or using the &d/request <request> &fcommand.'
+    '2':
+    - '&fHey, right now you are in the mode of %player_server% remember that you can
+      always run &d/hub &fand go to another mode'
+    - '&fYour current Ping is &d%player_ping%&f, if you have lag it could be a problem
+      of yours or the server'
