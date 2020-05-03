@@ -47,7 +47,7 @@ Messages:
   Report-Help:
   - '&cUsage: /report <player> <reason>'
   Report-Cooldown-Format: '&cVous devez patienter &l%cooldown%s &csecondes pour renvoyer un message au staff'
-  Report-Player-Message: '&aVotre reeport à bien été envoyer à tout les menbres du staff sur tout les serveurs'
+  Report-Player-Message: '&aVotre report à bien été envoyer à tout les menbres du staff sur tout les serveurs'
   Report-Staff-Message:
   - ''
   - '&fÉméteur de l''avertissment de&7: &d%player_name%'
@@ -65,8 +65,7 @@ Messages:
   Generating-Reports-Message: '&fTous les avertissements envers &d%target_name% &font bien été obtenus'
   Request-Help:
   - '&cUtilisation : /request <message>'
-  Request-Cooldown-Format: '&cYou have to wait &l%cooldown%s &cseconds to send a message
-    back to the staff'
+  Request-Cooldown-Format: '&cVous avez besoin de patienter &l%cooldown%s &csecondes pour renvoyer un message au staff'
   Request-Player-Message: '&aVotre message a bien été envoyé à tout les menbres du staff connectés sur tout les serveurs'
   Request-Staff-Message:
   - ''
