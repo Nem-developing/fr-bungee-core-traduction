@@ -106,29 +106,26 @@ Messages:
   Plugin-List: '&fPlugins &7(&d%plugins_amount%&7): &d%plugins_name%'
   Motd:
     Usage:
-    - '&cUsage: /setmotd <line> <text>'
-    - '&cUsage: /setmotd maintenance <line> <text>'
-    Line-1: '&d&lExample Server &f| &7BungeCore'
-    Line-2: '&5Plugin created by &d&lNotCacha'
-    Set-Motd-Message: '&aLine %line% has been established correctly, it was replaced
-      by %newline%'
-  Server-Full: '&cThe network is full at the moment, you can try later or buy rank
-    in our store to enter when the server is full store.example.com&7.'
+    - '&cUtilisation : /setmotd <line> <text>'
+    - '&cUtilisation : /setmotd maintenance <line> <text>'
+    Line-1: '&d&lServeur d''exemple &f| &7BungeCore'
+    Line-2: '&5Plugin créé par : &d&lNotCacha'
+    Set-Motd-Message: '&aLa ligne %line% a bien été établie, elle a été remplacée par %newline%'
+  Server-Full: '&cNos serveur sont pleins pour le moment, veuillez retenter plus tard ou acheter un grade sur notre boutique : store.example.com&7.'
 Maintenance:
   Enabled: false
   MOTD:
-    Line1: '&dYour Minecraft Network &7| &4Maintenance'
-    Line2: '&cEdit the config.yml'
+    Line1: '&dVotre serveur minecraft &7| &4Maintenance'
+    Line2: '&cModifiez le fichier : config.yml'
   Serverversion: '&cMaintenance'
-  Maintenance-Enabled: '&aMaintenance mode has been activated&7.'
-  Maintenance-Disabled: '&cThe network is no longer under maintenance&7.'
-  Maintenance-On: '&cRight now the network is under maintenance, you can visit our
-    twitter for more information @NCachax&7.'
+  Maintenance-Enabled: '&aLa maintenance a été activée&7.'
+  Maintenance-Disabled: '&cLes serveurs ne sont plus en maintenance&7.'
+  Maintenance-On: '&cActuellement; le serveur est en maintenance. Vous pouvez visiter notre twitter pour plus d''informations @NCachax&7.'
   Kick-Message: '&cThe network is under maintenance, you can get information about
     this maintenance on our twitter @NCachax&7.'
   Set-Motd-Message: '&aLine %line% has been established correctly, it was replaced
     by %newline%'
-  Command-Usage: '&cUsage: /setmotd maintenance <line> <text>'
+  Command-Usage: '&cUtilisation : /setmotd maintenance <line> <text>'
 Announcers:
   Delay: 120
   Type: RANDOM
