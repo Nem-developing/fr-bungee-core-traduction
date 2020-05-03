@@ -37,40 +37,37 @@ Messages:
   Ping-Other: '&dLe ping de %target_name% est de &d%target_ping% &fms'
   SocialSpy-Enabed: '&fSocialSpy &aactivé !'
   SocialSpy-Disabled: '&fSocialSpy &cDésactivé !'
-  Msg-Filtred: '&c[Filtred] &f%player_name% &4--> &f%target_name%&7: &f%message%'
+  Msg-Filtred: '&c[SOCIALSPY] &f%player_name% &4--> &f%target_name%&7: &f%message%'
   StaffChat-Help:
   - '&cUsage: /staffchat <message>'
   StaffChat-Format: '&f%server% &7| &c%player%&7: &f%msg%'
   StaffChat-Format-Console: '&fALL &7| &cConsole&7: &f%msg%'
-  StaffChat-Enabled: '&9Staff Chat &7has been &aenabled&7.'
-  StaffChat-Disabled: '&9Staff Chat &7has been &cdisabled&7.'
+  StaffChat-Enabled: '&9Staff Chat &aactivé&7.'
+  StaffChat-Disabled: '&9Staff Chat &cdésactivé&7.'
   Report-Help:
   - '&cUsage: /report <player> <reason>'
-  Report-Cooldown-Format: '&cYou have to wait &l%cooldown%s &cseconds to send a message
-    back to the staff'
-  Report-Player-Message: '&aYour report has been sent to all online staff in the network'
+  Report-Cooldown-Format: '&cVous devez patienter &l%cooldown%s &csecondes pour renvoyer un message au staff'
+  Report-Player-Message: '&aVotre reeport à bien été envoyer à tout les menbres du staff sur tout les serveurs'
   Report-Staff-Message:
   - ''
-  - '&fReport of&7: &d%player_name%'
-  - '&fReported&7: &d%target_name%'
-  - '&fReason&7: &d%reason%'
-  - '&fServer&7: &d%server%'
-  Report-Teleport-Message: '&dClick to teleport the reported player.'
-  Report-Hover-Message: '&dClick to teleport server of reported player.'
-  No-Contais-Reports: '&cPlayer &4%target_name% &chas no reports saved in our database.'
+  - '&fÉméteur de l''avertissment de&7: &d%player_name%'
+  - '&fPersonne avertie &7: &d%target_name%'
+  - '&fRaison &7: &d%reason%'
+  - '&fServeur &7: &d%server%'
+  Report-Teleport-Message: '&dCliquez pour téléporter la perssone avertie.'
+  Report-Hover-Message: '&dCliquez pour vous téléporter sur le serveur de la personne avertie.'
+  No-Contais-Reports: '&cLe joueur &4%target_name% &cn''as pas d'avertissements dans la base de avertie.'
   Clear-Reports-Usage:
-  - '&cUsage: /clearreports <player>'
-  Clear-Reports-Message: '&d%target_name% &freports have been removed'
+  - '&cUtilisation : /clearreports <player>'
+  Clear-Reports-Message: 'Les avertissements de &d%target_name% &fon bien été suprimés !'
   Get-Reports-Usage:
-  - '&cUsage: /getreports <player>'
-  Generating-Reports-Message: '&fAll reports of the &d%target_name% &fplayer are being
-    obtained'
+  - '&cUtilisation : /getreports <player>'
+  Generating-Reports-Message: '&fTous les avertissements envers &d%target_name% &font bien été obtenus'
   Request-Help:
-  - '&cUsage: /request <message>'
+  - '&cUtilisation : /request <message>'
   Request-Cooldown-Format: '&cYou have to wait &l%cooldown%s &cseconds to send a message
     back to the staff'
-  Request-Player-Message: '&aYour message has been sent to all staff connected in
-    the &anetwork'
+  Request-Player-Message: '&aVotre message a bien été envoyé à tout les menbres du staff connectés sur tout les serveurs'
   Request-Staff-Message:
   - ''
   - '&dHas requested assistence.'
