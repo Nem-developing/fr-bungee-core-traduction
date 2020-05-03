@@ -121,22 +121,16 @@ Maintenance:
   Maintenance-Enabled: '&aLa maintenance a été activée&7.'
   Maintenance-Disabled: '&cLes serveurs ne sont plus en maintenance&7.'
   Maintenance-On: '&cActuellement; le serveur est en maintenance. Vous pouvez visiter notre twitter pour plus d''informations @NCachax&7.'
-  Kick-Message: '&cThe network is under maintenance, you can get information about
-    this maintenance on our twitter @NCachax&7.'
-  Set-Motd-Message: '&aLine %line% has been established correctly, it was replaced
-    by %newline%'
+  Kick-Message: '&cNos serveurs sont en maintenance, suivez l''actualité sur twitter @NCachax&7.'
+  Set-Motd-Message: '&aLa ligne %line% a bien été établie, elle a été remplacée par %newline%'
   Command-Usage: '&cUtilisation : /setmotd maintenance <line> <text>'
 Announcers:
   Delay: 120
   Type: RANDOM
   announcers:
     '1':
-    - '&fWelcome &d%player_name%&f, has our server remember that you can follow us
-      on our twitter &d@NCachax'
-    - '&fRemember that any doubts or questions you have can be asked to the staff
-      via teamspeak, or using the &d/request <request> &fcommand.'
+    - '&fBienvenue &d%player_name%&f. Suis-nous sur twitter &d@NCachax'
+    - '&fSi tu as des question ou des remarques tu peut les envoyer au staff en utilisant la commande &d/request <requette>.'
     '2':
-    - '&fHey, right now you are in the mode of %player_server% remember that you can
-      always run &d/hub &fand go to another mode'
-    - '&fYour current Ping is &d%player_ping%&f, if you have lag it could be a problem
-      of yours or the server'
+    - '&fHey, tu es sur le serveur %player_server%. À tout moments tu peut faire &d/hub &fpour changer de serveur'
+    - '&fTon ping est de &d%player_ping%&f, si tu as des lags cela peut venir de toi mais aussi du serveur !'
