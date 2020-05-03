@@ -11,7 +11,7 @@ Config:
   Hub-Command: true
   Hub-Server: lobby
   Hub-Aliases: lobby,lby
-  Motd-Command: false
+  Motd-Command: true
   Maintenance-Command: true
   Announcer-Command: true
   Server-Full-Join: true
