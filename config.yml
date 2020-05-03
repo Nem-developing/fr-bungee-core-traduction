@@ -96,14 +96,13 @@ Messages:
   - '&fVersion&7 : &d%target_version%'
   - '&fPays&7 : &d%target_country%'
   - '&7&m                                            '
-  Announcer-Use: '&cUsage: /announcer <server or all> <title> <subtitle>'
+  Announcer-Use: '&cUtilisation : /announcer <serveur ou all> <titre> <sous-titre>'
   Announcer-Broadcast: '&7[&4%prefix%&7] &4%message%'
-  Server-Does-not-exist: '&cThe server &4%server% &cdoes not exist'
+  Server-Does-not-exist: '&cLe serveur &4%server% &cn''existe pas !'
   Blocked-Commands-Message:
-  - '&cThe command &l%command% &cis totally blocked, your behavior will be notified
-    to the online staff and added to our database'
+  - '&cLa commande &l%command% &cest totalement bloquée, ce comportement sera reporté aux staff actuellement connectés et sur notre base de donnée'
   Blocked-Commands-Message-Staff:
-  - '&d%target_name% &fhas used the following command blocked &d%command%'
+  - '&d%target_name% &fa tenté d''utiliser la commande interdite : &d%command%'
   Plugin-List: '&fPlugins &7(&d%plugins_amount%&7): &d%plugins_name%'
   Motd:
     Usage:
