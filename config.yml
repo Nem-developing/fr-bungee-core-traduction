@@ -30,7 +30,7 @@ Messages:
   Player-Offline: '&c%target_name% est hors ligne.'
   DontReply: '&cVous n''avez personne à qui répondre.'
   DontMessageYourself: '&cVous ne pouvez pas vous envoyer un message vous-même !'
-  No-Message: '&cS''il vous plais, veuillez entrer un message.'
+  No-Message: '&cS''il vous plaît, veuillez entrer un message.'
   To: '&7(Pour &d%target_name%&7) %message%'
   From: '&7(De &d%player_name%&7) %message%'
   Ping: '&fVotre ping est de &7: &d%ping% &fms'
