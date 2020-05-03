@@ -75,8 +75,8 @@ Messages:
   - '&fRaison&7 : &d%request%'
   - '&fServeur&7 : &d%server%'
   - ''
-  Staff-Join: '&d%player% &7a rejoin le serveur &f%server%.'
-  Staff-Quit: '&d%player% &7a quité le serveur &f%server%.'
+  Staff-Join: '&d%player% &7a rejoint le serveur &f%server%.'
+  Staff-Quit: '&d%player% &7a quitté le serveur &f%server%.'
   Broadcast-Help:
   - '&cUtilisation : /broadcast <message>'
   Broadcast-Prefix: '&7[&4Alertet&7] '
