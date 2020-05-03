@@ -5,7 +5,7 @@ Config:
   Private-Message-Command: true
   Report-Command: true
   Request-Command: true
-  SocialSpy-Command: true
+  Spy-Command: true
   Broadcast-Command: true
   Staff-Message: true
   Hub-Command: true
@@ -35,7 +35,7 @@ Messages:
   From: '&7(De &d%player_name%&7) %message%'
   Ping: '&fVotre ping est de &7: &d%ping% &fms'
   Ping-Other: '&dLe ping de %target_name% est de &d%target_ping% &fms'
-  SocialSpy-Enabed: '&fSocialSpy &aactivé !'
+  SocialSpy-Enabed: '&fSocialSpy &aActivé !'
   SocialSpy-Disabled: '&fSocialSpy &cDésactivé !'
   Msg-Filtred: '&c[SOCIALSPY] &f%player_name% &4--> &f%target_name%&7: &f%message%'
   StaffChat-Help:
